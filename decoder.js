@@ -21,6 +21,7 @@ self.onmessage = function(imgData) {
   postMessage(zbarProcessImageData(imgData.data));
 };
 
+
 function zbarProcessImageData(imgData) {
   var result = [];
   var Module = {};
